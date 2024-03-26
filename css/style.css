@@ -1,4 +1,34 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Clara
+* Created on: March 2024
 * This file contains the CSS for index.html
 */
+
+body {
+  background-color: rgb(154, 187, 249);
+}
+
+.mdl-layout-title {
+  padding-left: 350px
+}
+
+.content {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.income-tax-image {
+  width: 500px;
+  padding-top: 30px;
+}
