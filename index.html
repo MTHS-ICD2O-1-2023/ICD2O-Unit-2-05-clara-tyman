@@ -24,48 +24,50 @@
         <span class="mdl-layout-title">Salary program, with JavaScript</span>
       </div>
     </header>
-      <main>class="mdl-layout__content"</main>
-              <div class="content">
-                <div class="row">
-                  <div class="column">
-                    <!-- Numeric Textfield with Floating Label -->
-                    <form action="#">
-                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="hours-of-work" />
-                        <label class="mdl-textfield__label" for="sample4">Hours worked</label>
-                        <span class="mdl-textfield__error">Input is not a number!</span>
-                      </div>
-                    </form>
-                    <!-- Numeric Textfield with Floating Label -->
-                    <form action="#">
-                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="rate-of-pay" />
-                        <label class="mdl-textfield__label" for="sample4">Pay per hour</label>
-                        <span class="mdl-textfield__error">Input is not a number!</span>
-                      </div>
-                    </form>
-                    <div>
-                      <p>
-                        Your pay will be: <span id="pay-from-job"></span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        The government will take:
-                        <span id="taxes-from-government"></span>
-                      </p>
-                    </div>
-                    <!-- Accent-colored raised button with ripple -->
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-                      onclick="myButtonClicked()">
-                      calculate
-                    </button>
-                  </div>
-                  <div class="column">
-                    <img src="./images/income_tax.jpg" alt="income tax" class="income-tax-image">
-                  </div>
-                </div>
-              </div>
-              </div>
-              </body>
-              </html>
+    <div class="content">
+      <div class="row">
+        <div class="column">
+          <!-- Numeric Textfield with Floating Label -->
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="hours-of-work" />
+              <label class="mdl-textfield__label" for="sample4">Hours worked</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+          </form>
+          <!-- Numeric Textfield with Floating Label -->
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="rate-of-pay" />
+              <label class="mdl-textfield__label" for="sample4">Pay per hour</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+          </form>
+          <div>
+            <p>
+              Your pay will be: <span id="pay-from-job"></span>
+            </p>
+          </div>
+          <div>
+            <p>
+              The government will take:
+              <span id="taxes-from-government"></span>
+            </p>
+          </div>
+          <!-- Accent-colored raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="myButtonClicked()">
+            calculate
+          </button>
+        </div>
+        <div class="column">
+          <img
+              src="./images/income_tax.jpg"
+              alt="income tax"
+              class="income-tax-image">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
